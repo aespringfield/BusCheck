@@ -1,0 +1,29 @@
+{
+  "intents": [
+    {
+      "intent": "GetRouteTimesIntent",
+      "slots": [
+        {
+          "name": "Route",
+          "type": "AMAZON.NUMBER"
+        },
+        {
+          "name": "Direction",
+          "type": "DIRECTIONS"
+        }
+      ]
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    },
+    {
+      "intent": "AMAZON.StartOverIntent"
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    }
+  ]
+}

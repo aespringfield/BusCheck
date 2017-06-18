@@ -1,0 +1,6 @@
+
+GetRouteTimesIntent get times for the {Direction} {Route}
+GetRouteTimesIntent when is the {Direction} {Route} coming
+GetRouteTimesIntent when is the next {Direction} {Route}
+GetRouteTimesIntent when the {Direction} {Route} is coming
+GetRouteTimesIntent when the next {Direction} {Route} is

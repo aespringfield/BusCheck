@@ -1,0 +1,29 @@
+{
+  "name": "bus_check",
+  "version": "1.0.0",
+  "description": "Alexa skill for finding realtime route info",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aespringfield/BusCheck.git"
+  },
+  "keywords": [
+    "transit",
+    "alexa",
+    "skill"
+  ],
+  "author": "Anna Springfield",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aespringfield/BusCheck/issues"
+  },
+  "homepage": "https://github.com/aespringfield/BusCheck#readme",
+  "dependencies": {
+    "alexa-sdk": "^1.0.10",
+    "express": "^4.15.3"
+  }
+}
