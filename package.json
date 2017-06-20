@@ -24,6 +24,7 @@
   "homepage": "https://github.com/aespringfield/BusCheck#readme",
   "dependencies": {
     "alexa-sdk": "^1.0.10",
+    "csvtojson": "^1.1.6",
     "express": "^4.15.3"
   }
 }
