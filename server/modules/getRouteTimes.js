@@ -4,6 +4,20 @@
 
 // Send Alexa address info to Google Maps geocoding to return location (lat & lng)
 
+// Check if Route is a real route
+
+// Check if route goes in the direction specified
+
+// Find closest stop for that route in that direction.
+// Need trip_id from trips.txt, stop_id from stop_times.txt using trip_id, then lat/lngs from stops.txt
+// Way easier to use Google Place library for the above?
+// Use Geolib to calculate distance between stop and location for first & last stop
+// Run function that takes in first stop object (index & distance), last stop object (index & distance), and array of stops
+// Set starting closestSoFar as middle stop in list
+// 
+// Use Geolib to calculate distance between stop and location
+//
+
 // Send lat & lng to Google Place to return nearby transit stations. Sort by distance.
 
 // Find nearest transit station that serves Route and Direction
